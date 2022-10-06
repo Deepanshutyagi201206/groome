@@ -1,0 +1,180 @@
+/* mobile */
+
+.login .mobile .back-container {
+    padding: 15px 20px;
+}
+
+.login .mobile .back-container img {
+    width: 16px;
+    height: auto;
+}
+.login .mobile .logo-input-container {
+    row-gap: 22%;
+    padding: 0px 20px;
+}
+
+.login .mobile .logo img {
+    max-width: 100%;
+}
+
+.login .mobile .input-button-conatiner .message {
+    font-size: 14px;
+    max-width: 290px;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 4px;
+}
+
+.login .mobile .input-button-conatiner input,
+.login .mobile .input-button-conatiner button {
+    max-width: 290px;
+    height: 42px;
+    border: 1px solid var(--text-color-4);
+    border-radius: 8px;
+    font-size: 14px;
+    outline: 0px;
+    padding: 10px 15px;
+}
+
+.login .mobile .input-button-conatiner input {
+    color: var(--text-color-3);
+}
+
+.login .mobile .input-button-conatiner input::-webkit-outer-spin-button,
+.login .mobile .input-button-conatiner input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.login .mobile .input-button-conatiner button {
+    background-color: var(--text-color-4);
+    color: white;
+    margin-top: 20px;
+}
+
+.login .mobile .terms-condition {
+    font-size: 14px;
+    color: var(--text-color-3);
+    font-weight: 400;
+}
+
+.login .mobile .terms-condition a {
+    color: var(--text-color-4);
+    text-decoration: none;
+}
+.login .mobile .building-image-conatiner{
+    padding-top: 15px;
+}
+
+.login .mobile .building-image-conatiner img {
+    width: 100%;
+    height: auto;
+}
+
+/* verify-otp */
+
+.login .verify-otp .back-container {
+    padding: 15px 20px;
+}
+
+.login .verify-otp .back-container img {
+    width: 16px;
+    height: auto;
+}
+
+.login .verify-otp .mobile-number-inputs-container {
+    padding: 0px 20px;
+}
+
+.login .verify-otp .otp-sent-message {
+    color: var(--text-color-5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+.login .verify-otp .mobile-number-container {
+    column-gap: 10px;
+    margin-top: 15px;
+}
+
+.login .verify-otp .mobile-number-container .mobile-number {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.login .verify-otp .mobile-number-container .edit-mobile-number {
+    background-color: transparent;
+}
+
+.login .verify-otp .mobile-number-container .edit-mobile-number img {
+    width: 16px;
+}
+
+.login .verify-otp .inputs-button-container{
+    margin-top: 22%;
+}
+.login .verify-otp .inputs-button-container .inputs-container {
+    column-gap: 8px;
+    padding: 20px 0px;
+    padding-top: 0px;
+}
+
+.login .verify-otp .inputs-button-container .enter-otp {
+    padding-bottom: 20px;
+}
+
+.login .verify-otp .inputs-button-container .enter-otp p {
+    line-height: 16px;
+    font-size: 14px;
+    color: var(--text-color-1);
+    font-weight: 500;
+}
+
+.login .verify-otp .inputs-button-container .message {
+    font-size: 14px;
+    margin-bottom: 5px;
+    line-height: 16px;
+}
+
+.login .verify-otp .inputs-button-container .inputs-container input {
+    width: 42px;
+    height: 42px;
+    border-radius: 8px;
+    outline: 0px;
+    border: 1px solid var(--text-color-4);
+}
+
+.login .verify-otp .inputs-button-container .verify-container button {
+    max-width: 290px;
+    height: 42px;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: 0px;
+    padding: 10px 15px;
+    background-color: var(--text-color-4);
+    color: white;
+    margin-bottom: 20px;
+}
+
+.login .verify-otp .inputs-button-container .resend-container button {
+    color: var(--text-color-4);
+    background-color: white;
+    font-size: 14px;
+    display: block;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.login .verify-otp .inputs-button-container .resend-container {
+    max-width: 290px;
+    margin: auto;
+}
+
+.login .verify-otp .inputs-button-container .resend-container p {
+    line-height: 16px;
+}
+
+.login .verify-otp .building-image-conatiner img {
+    width: 100%;
+}

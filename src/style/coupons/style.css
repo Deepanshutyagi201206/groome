@@ -1,0 +1,132 @@
+.coupons-page {
+    background-color: var(--bg-3);
+    min-height: 100%;
+    grid-template-rows: max-content auto;
+}
+
+/* header */
+.coupons-page .header-container {
+    padding: 0px 20px;
+    height: 48px;
+    background-color: white;
+    box-shadow: 0px 4px 12px rgba(166, 166, 166, 0.12);
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+
+.coupons-page .header-container img {
+    width: 16px;
+    height: auto;
+}
+
+.coupons-page .header-container p {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500;
+    color: var(--text-color-7);
+}
+
+/* apply-coupon-container */
+
+.coupons-page .apply-coupon-container {
+    margin: 8px 20px;
+
+}
+
+.coupons-page .apply-coupon {
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid var(--border-1);
+}
+
+.coupons-page .apply-coupon input {
+    outline: 0px;
+    font-size: 14px;
+    line-height: 14px;
+    color: var(--text-color-3)
+}
+
+.coupons-page .apply-coupon button {
+    color: var(--text-color-4);
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 500;
+}
+
+/* order-details-container */
+
+.coupons-page .coupons-container {
+    margin: 20px 20px
+}
+
+.coupons-page .coupons-container .title {
+    padding-bottom: 8px;
+}
+
+.coupons-page .coupons-container .title p {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    color: var(--text-color-1);
+}
+
+.coupons-page .coupons-container .title button {
+    background-color: transparent;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    color: var(--text-color-1);
+    border: 0px;
+}
+
+.coupons-page .coupon-container {
+    border-radius: 8px;
+    padding: 8px 15px;
+    border: 1px solid var(--border-1);
+    box-shadow: 0px 2px 8px rgba(166, 166, 166, 0.24);
+    margin-bottom: 8px;
+}
+
+.coupons-page .coupon-container .coupon {
+    border-bottom: 1px solid var(--border-1);
+    padding-bottom: 8px;
+}
+
+.coupons-page .coupon-container .coupon .applied {
+    color: var(--text-color-4);
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 500;
+}
+
+.coupons-page .coupon-container .coupon .coupon-code p {
+    background-color: var(--bg-2);
+    color: var(--text-color-1);
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500;
+    padding: 8px 12px;
+    border: 1px dashed var(--border-2);
+    border-radius: 4px;
+}
+
+.coupons-page .coupon-container .coupon button {
+    color: var(--text-color-4);
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 500;
+}
+
+.coupons-page .coupon-container .offer {
+    color: var(--text-color-1);
+    font-size: 16px;
+    line-height: 16px;
+    margin: 8px 0px;
+}
+
+.coupons-page .coupon-container .valid {
+    color: var(--text-color-2);
+    font-size: 12px;
+    line-height: 12px;
+}

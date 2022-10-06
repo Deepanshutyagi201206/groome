@@ -1,0 +1,107 @@
+/* header-container */
+
+.offersdeals-page {
+    background-color: var(--bg-3);
+    min-height: 100%;
+    grid-template-rows: max-content auto;
+}
+
+.offersdeals-page .header-container {
+    padding: 0px 20px;
+    background-color: white;
+    height: 48px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    box-shadow: 0px 4px 12px rgba(166, 166, 166, 0.12);
+}
+
+.offersdeals-page .header-containerder img {
+    width: 16px;
+    height: auto;
+}
+
+.offersdeals-page .header-container p {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500;
+    color: var(--text-color-7);
+}
+
+/* categories */
+
+.offersdeals-page .categories {
+    overflow: scroll;
+    padding: 15px 20px;
+    column-gap: 8px;
+}
+
+.offersdeals-page .categories::-webkit-scrollbar {
+    display: none;
+}
+
+.offersdeals-page .categories button {
+    border-radius: 8px;
+    border: 1px solid var(--border-1);
+    padding: 12px;
+    background-color: white;
+    width: max-content;
+    font-size: 12px;
+    line-height: 12px;
+    box-shadow: 0px 2px 4px rgba(166, 166, 166, 0.12);
+}
+
+/* offer-deal-container */
+
+.offersdeals-page .offer-deal-container {
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.offersdeals-page .offer-deal-container .title {
+    padding-bottom: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.offersdeals-page .offer-deal {
+    padding: 15px;
+    border-radius: 8px;
+}
+.offersdeals-page .offer-deal .offer-deal-image img{
+    width: 100%;
+    height: auto;
+}
+
+/* coupon-code-container */
+
+.offersdeals-page .coupon-code-container{
+    padding-top: 15px;
+}
+.offersdeals-page .coupon-code-container .coupon-code-text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.offersdeals-page .coupon-code-container .coupon-code {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    color: var(--text-color-4);
+    margin: 0px 8px;
+}
+
+.offersdeals-page .coupon-code-container .copy-code,
+.offersdeals-page .coupon-code-container .info {
+    background-color: transparent;
+    width: 16px;
+    height: 16px;
+}
+
+.offersdeals-page .coupon-code-container .copy-code img,
+.offersdeals-page .coupon-code-container .info img{
+    width: 16px;
+    height: 16px;
+}

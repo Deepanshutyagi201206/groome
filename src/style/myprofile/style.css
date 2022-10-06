@@ -1,0 +1,324 @@
+.myprofile-page {
+    background-color: var(--bg-3);
+    padding-bottom: 15px;
+    min-height: 100%;
+}
+
+/* header-container */
+
+.myprofile-page .header-container {
+    padding: 0px 20px;
+    height: 48px;
+    box-shadow: 0px 4px 12px rgba(166, 166, 166, 0.12);
+    position: sticky;
+    top: 0px;
+}
+
+.myprofile-page .header-container button {
+    background-color: white;
+}
+
+.myprofile-page .header-container img {
+    width: 16px;
+    height: auto;
+}
+
+.myprofile-page .header-container p {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500;
+    color: var(--text-color-7);
+}
+
+/* user-info-container */
+.myprofile-page .user-info-container {
+    margin: 15px 20px;
+    padding: 15px;
+    border-radius: 8px;
+    column-gap: 10px;
+}
+
+.myprofile-page .user-info-container .user-info .name {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.myprofile-page .user-info-container .user-info .member-since {
+    padding: 10px 0px;
+    column-gap: 8px;
+}
+
+.myprofile-page .user-info-container .user-info .member-since p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    color: var(--text-color-1);
+}
+
+.myprofile-page .user-info-container .user-info .phone-number .image {
+    width: 20px;
+    height: 20px;
+    background-color: var(--bg-2);
+    border-radius: 100%;
+}
+
+.myprofile-page .user-info-container .user-info .phone-number img {
+    width: 8px;
+    height: auto
+}
+
+.myprofile-page .user-info-container .user-info .phone-number p {
+    color: var(--text-color-4);
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 10px;
+}
+
+.myprofile-page .user-info-container .user-profile-image img {
+    width: 78px;
+    height: 78px;
+    border-radius: 100%;
+}
+.myprofile-page .user-info-container .user-profile-image svg {
+    width: 78px;
+    height: 78px;
+    border-radius: 100%;
+    color: black;
+}
+
+/* profile-without-login */
+.myprofile-page .profile-without-login{
+    background-color: white;
+    margin: 15px 20px;
+    padding: 15px;
+    border-radius: 8px;
+}
+.myprofile-page .profile-without-login p{
+    font-size: 16px;
+    line-height: 16px;
+    color: var(--text-color-1);
+    margin-bottom: 8px;
+}
+.myprofile-page .profile-without-login a{
+    border-radius: 8px;
+    background-color: white;
+    border: 1px solid var(--border-2);
+    width: 100%;
+    text-align: center;
+    padding: 13px;
+    font-size: 16px;
+    line-height: 16px;
+    text-decoration: none;
+    display: block;
+    color: var(--text-color-4);
+}
+
+/* user-action-info */
+.myprofile-page .user-liked-offer-wallet {
+    margin: 15px 20px;
+    margin-top: 0px;
+    column-gap: 10px;
+}
+
+.myprofile-page .user-liked-offer-wallet .liked,
+.myprofile-page .user-liked-offer-wallet .offers,
+.myprofile-page .user-liked-offer-wallet .view-profile,
+.myprofile-page .user-liked-offer-wallet .wallet{
+    border-radius: 8px;
+    max-width: 76px;
+    width: 25%;
+}
+.myprofile-page .user-liked-offer-wallet .liked button,
+.myprofile-page .user-liked-offer-wallet .offers button,
+.myprofile-page .user-liked-offer-wallet .view-profile button,
+.myprofile-page .user-liked-offer-wallet .wallet button{
+    padding: 15px 0px;
+    background-color: white;
+    border: 0px;
+    display: block;
+    outline: 0px;
+    color: black;
+    border-radius: 8px;
+    width: 100%;
+    text-decoration: none;
+}
+
+.myprofile-page .user-liked-offer-wallet .liked img,
+.myprofile-page .user-liked-offer-wallet .offers img,
+.myprofile-page .user-liked-offer-wallet .view-profile img,
+.myprofile-page .user-liked-offer-wallet .wallet img {
+    width: 100%;
+    max-width: 30px;
+    height: auto;
+}
+
+.myprofile-page .user-liked-offer-wallet .liked p,
+.myprofile-page .user-liked-offer-wallet .offers p,
+.myprofile-page .user-liked-offer-wallet .view-profile p,
+.myprofile-page .user-liked-offer-wallet .wallet p {
+    font-size: 10px;
+    font-weight: 500;
+    margin-top: 8px;
+    line-height: 11px;
+}
+
+/* order-details */
+.myprofile-page .order-details-section {
+    background-color: white;
+    margin: 15px 20px;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.myprofile-page .order-details-section .title {
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.myprofile-page .order-details-section .title p{
+    line-height: 18px;
+    color: var(--text-color-1);
+}
+
+.myprofile-page .order-details-section .booking-order-container,
+.myprofile-page .order-details-section .product-order-container,
+.myprofile-page .order-details-section .address-booking-container {
+    grid-template-columns: 20px auto;
+    column-gap: 15px;
+    padding-bottom: 15px;
+}
+.myprofile-page .order-details-section .booking-order-container .image,
+.myprofile-page .order-details-section .product-order-container .image,
+.myprofile-page .order-details-section .address-booking-container .image {
+    width: 24px;
+    height: 24px;
+    background-color: var(--bg-2);
+    border-radius: 100%;
+}
+.myprofile-page .order-details-section .booking-order-container .image img,
+.myprofile-page .order-details-section .product-order-container .image img,
+.myprofile-page .order-details-section .address-booking-container .image img{
+    width: 12px;
+    height: 12px;
+}
+.myprofile-page .order-details-section .booking-order,
+.myprofile-page .order-details-section .product-order,
+.myprofile-page .order-details-section .address-booking{
+    grid-template-columns: auto 12px;
+    border-bottom: 1px solid var(--border-1);
+    padding-bottom: 15px;
+}
+
+.myprofile-page .order-details-section .booking-order p,
+.myprofile-page .order-details-section .product-order p,
+.myprofile-page .order-details-section .address-booking p{
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 500;
+    color: var(--text-color-1);
+}
+.myprofile-page .order-details-section .booking-order .right-image,
+.myprofile-page .order-details-section .product-order .right-image,
+.myprofile-page .order-details-section .address-booking .right-image{
+    line-height: 14px;
+}
+.myprofile-page .order-details-section .booking-order .right-image button{
+    border: 0px;
+    background-color: white;
+}
+.myprofile-page .order-details-section .booking-order img,
+.myprofile-page .order-details-section .product-order img,
+.myprofile-page .order-details-section .address-booking img{
+    width: 12px;
+    height: auto;
+}
+
+/* about-us */
+.myprofile-page .membership-container,
+.myprofile-page .about-us-container,
+.myprofile-page .terms-of-service-container,
+.myprofile-page .privacy-policy-container,
+.myprofile-page .faqs-container,
+.myprofile-page .logout-container,
+.myprofile-page .login-container{
+    grid-template-columns: 20px auto;
+    column-gap: 15px;
+    padding: 15px;
+    margin: 15px 20px;
+    border-radius: 8px;
+}
+.myprofile-page .logout-container{
+    margin-bottom: 0px;
+}
+.myprofile-page .membership-container .image,
+.myprofile-page .about-us-container .image,
+.myprofile-page .terms-of-service-container .image,
+.myprofile-page .privacy-policy-container .image,
+.myprofile-page .faqs-container .image,
+.myprofile-page .logout-container .image,
+.myprofile-page .login-container .image{
+    width: 24px;
+    height: 24px;
+    background-color: var(--bg-2);
+    border-radius: 100%;
+    margin-right: 15px;
+}
+
+.myprofile-page .membership-container .image img,
+.myprofile-page .about-us-container .image img,
+.myprofile-page .terms-of-service-container .image img,
+.myprofile-page .privacy-policy-container .image img,
+.myprofile-page .faqs-container .image img,
+.myprofile-page .logout-container .image img,
+.myprofile-page .login-container .image img{
+    width: 12px;
+    height: 12px;
+}
+
+.myprofile-page .membership-container .membership,
+.myprofile-page .about-us-container .about-us,
+.myprofile-page .terms-of-service-container .terms-of-service,
+.myprofile-page .privacy-policy-container .privacy-policy,
+.myprofile-page .faqs-container .faqs,
+.myprofile-page .logout-container .logout,
+.myprofile-page .login-container .login{
+    grid-template-columns: auto 6px;
+}
+
+.myprofile-page .membership-container .membership p,
+.myprofile-page .about-us-container .about-us p,
+.myprofile-page .terms-of-service-container .terms-of-service p,
+.myprofile-page .privacy-policy-container .privacy-policy p,
+.myprofile-page .faqs-container .faqs p,
+.myprofile-page .logout-container .logout p,
+.myprofile-page .login-container .login p{
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 500;
+    color: var(--text-color-1);
+}
+
+.myprofile-page .membership-container .right-image,
+.myprofile-page .about-us-container .right-image,
+.myprofile-page .terms-of-service-container .right-image,
+.myprofile-page .privacy-policy-container .right-image,
+.myprofile-page .faqs-container .right-image,
+.myprofile-page .logout-container .right-image,
+.myprofile-page .login-container .right-image{
+    line-height: 14px;
+}
+.myprofile-page .logout-container .right-image{
+    background-color: white;
+    border:0px;
+}
+
+.myprofile-page .membership-container .right-image img
+.myprofile-page .about-us-container .right-image img,
+.myprofile-page .terms-of-service-container .right-image img,
+.myprofile-page .privacy-policy-container .right-image img,
+.myprofile-page .faqs-container .right-image img,
+.myprofile-page .logout-container .right-image img{
+    width: 12px;
+    height: auto;
+}

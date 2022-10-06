@@ -1,0 +1,115 @@
+.wallet-page {
+    background-color: var(--bg-3);
+}
+
+/* header */
+.wallet-page .header-container {
+    padding: 0px 20px;
+    height: 48px;
+    background-color: white;
+    box-shadow: 0px 4px 12px rgba(166, 166, 166, 0.12);
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+
+.wallet-page .header-container img {
+    width: 16px;
+    height: auto;
+}
+
+.wallet-page .header-container p {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500;
+    color: var(--text-color-7);
+}
+
+/* wallet-container */
+
+.wallet-page .wallet-container {
+    border-radius: 8px;
+    height: 56px;
+    margin: 8px 20px;
+    margin-bottom: 0px;
+    padding: 0px 15px;
+}
+
+.wallet-page .wallet-container .wallet-image {
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+    background-color: var(--bg-2);
+    margin-right: 15px;
+}
+
+.wallet-page .wallet-container .wallet-image img {
+    width: 18px;
+    height: 18px;
+}
+
+.wallet-page .wallet-container .name,
+.wallet-page .wallet-container .balance {
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 500;
+    color: var(--text-color-1);
+}
+
+/* order-details-container */
+
+.wallet-page .order-details-section {
+    margin: 20px 20px 0px 20px;
+}
+
+.wallet-page .order-details-section .title {
+    padding-left: 15px;
+    padding-bottom: 8px;
+}
+
+.wallet-page .order-details-section .title p {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500;
+    color: var(--text-color-1);
+}
+
+.wallet-page .order-details-section .order-detail {
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.wallet-page .order-details-section .order-detail .wallet-image {
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+    background-color: var(--bg-2);
+    margin-right: 15px;
+}
+
+.wallet-page .order-details-section .order-detail .wallet-image img {
+    width: 18px;
+    height: 18px;
+}
+
+.wallet-page .order-details-section .order-detail .date,
+.wallet-page .order-details-section .order-detail .expire-time {
+    font-size: 14px;
+    line-height: 14px;
+    color: var(--text-color-2);
+}
+
+.wallet-page .order-details-section .order-detail .name {
+    font-size: 16px;
+    line-height: 16px;
+    color: var(--text-color-1);
+    font-weight: 500;
+    margin: 8px 0px;
+}
+
+.wallet-page .order-details-section .order-detail .balance {
+    font-size: 14px;
+    line-height: 14px;
+    color: var(--text-color-8);
+    font-weight: 500;
+}

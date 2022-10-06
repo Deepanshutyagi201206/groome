@@ -1,0 +1,436 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+body{
+    height: 100%;
+}
+.root{
+    height: 100%;
+}
+
+:root {
+
+    --bg: #EBEBEB;
+    --bg-2: #FCE2FF;
+    --bg-3: #F3F0F8;
+    --bg-4: #772286;
+    --bg-5: #FDFDFD;
+    --bg-6: #F7635B;
+
+    --button-bg: #772286;
+    --button-bg-2: #FCE2FF;
+    --button-bg-3: #342F2F;
+    --button-bg-4: #13BF6D40;
+
+    --text-color-1: #111111;
+    --text-color-2: #838383;
+    --text-color-3: #AFAFAF;
+    --text-color-4: #772286;
+    --text-color-5: #000000;
+    --text-color-6: #ffffff;
+    --text-color-7: #000000;
+    --text-color-8: #13BF6D;
+    --text-color-9: #F7635B;
+
+    --border-1: #EBEBEB;
+    --border-2: #772286;
+    --border-3: #FFCE00;
+    --border-4: #AFAFAF;
+}
+
+/* salon */
+
+.salon {
+    border-radius: 8px;
+    min-width: fit-content;
+    background-color: white;
+}
+
+.salon .like button {
+    background-color: white;
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    margin: 15px;
+    z-index: 1;
+    right: 0px;
+}
+
+.salon .like button img {
+    display: flex;
+    width: 16px;
+    height: auto;
+}
+
+.salon a {
+    text-decoration: none;
+}
+
+.salon .salon-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px 8px 0px 0px;
+}
+.salon .offers{
+    background-color: var(--bg-6);
+    color: white;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 500;
+    position: absolute;
+    top: 19px;
+    left: -4px;
+    padding: 6px 12px;
+    border-radius: 0px 4px 4px 4px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+.salon .offers::before{
+    content: '';
+    height: 4px;
+    width: 4px;
+    background-color: #BA1C14;
+    position: relative;
+    left: -12px;
+    top: -15px;
+    display: block;
+    clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
+}
+.salon .time-distance {
+    font-size: 12px;
+    border-radius: 8px;
+    background-color: white;
+    color: var(--text-color-4);
+    padding: 0px 8px;
+    width: fit-content;
+    column-gap: 5px;
+    bottom: 0px;
+    right: 0px;
+    margin: 15px;
+    height: 24px;
+    line-height: 12px;
+}
+
+.salon .salon-info {
+    box-shadow: 0px 2px 8px rgba(166, 166, 166, 0.24);
+    border-radius: 0 0 8px 8px;
+    padding: 15px;
+}
+
+.salon .salon-info p {
+    font-size: 12px;
+    color: var(--text-color-3);
+    line-height: 12px;
+}
+
+.salon .salon-info .name {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text-color-1);
+}
+
+.salon .salon-info .rating {
+    height: 24px;
+    width: 38px;
+    background-color: var(--button-bg);
+    color: white;
+    border-radius: 8px;
+    column-gap: 2px;
+}
+
+.salon .salon-info .rating svg {
+    width: 8px;
+    height: auto;
+}
+
+.salon .salon-info .address {
+    border-bottom: 1px solid var(--border-1);
+    padding: 12px 0px;
+}
+
+.salon .salon-info .book {
+    padding-top: 15px;
+    column-gap: 10px;
+}
+
+.salon .salon-info .book img {
+    width: 16px;
+    height: auto;
+}
+
+/* star-rating-container */
+
+.star-rating-container .star-ratings {
+    display: flex !important;
+    column-gap: 2px;
+}
+
+.star-rating-container .rating {
+    height: 20px;
+    width: fit-content;
+    border: 1px solid var(--border-3);
+    border-radius: 8px;
+    background-color: rgba(255, 206, 0, 0.12);
+    column-gap: 2px;
+    padding: 10px 8px;
+}
+
+.star-rating-container .star-ratings .star-container {
+    padding: 0px !important;
+    display: flex !important;
+}
+
+.star-rating-container .star-ratings .star-container svg {
+    width: 10px !important;
+    height: 10px !important;
+}
+
+.star-rating-container .rating .number-of-rating {
+    font-size: 10px;
+    font-weight: 500;
+    color: var(--text-color-2);
+    line-height: 10px;
+    position: relative;
+    top: 1.5px;
+}
+
+/* footer-container */
+.footer-container {
+    background-color: white;
+    box-shadow: 0px -4px 12px rgba(166, 166, 166, 0.12);
+    padding: 6px 20px;
+    position: sticky;
+    bottom: 0px;
+    z-index: 1;
+
+}
+
+.footer-container a {
+    text-decoration: none;
+}
+
+.footer-container .image {
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    margin: auto;
+}
+
+.footer-container img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-container p {
+    font-size: 12px;
+    color: var(--text-color-3);
+    line-height: 12px;
+    margin-top: 4px;
+    font-weight: 500;
+}
+
+.footer-container .active .image {
+    background-color: var(--bg-2);
+    border-radius: 100%;
+}
+
+.footer-container .active p {
+    color: var(--text-color-4);
+}
+
+/* filter-salons-container */
+
+.filter-salons-container {
+    padding: 20px;
+    padding-top: 0px;
+    column-gap: 10px;
+    overflow: scroll;
+}
+
+.filter-salons-container::-webkit-scrollbar {
+    display: none;
+}
+
+.filter-salons-container .filter {
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(166, 166, 166, 0.12);
+    border: 1px solid var(--border-1);
+    width: max-content;
+    color: var(--text-1);
+    padding: 0px 10px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 500;
+    height: 36px;
+}
+
+.filter-salons-container .cancel-filter {
+    background-color: var(--bg-2);
+    box-shadow: 0px 2px 4px rgba(166, 166, 166, 0.12);
+    border: 1px solid var(--border-2);
+    width: max-content;
+    color: var(--text-1);
+    padding: 0px 10px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 500;
+    height: 36px;
+    column-gap: 4px;
+}
+
+.filter-salons-container .cancel-filter button {
+    background-color: transparent;
+    font-size: 12px;
+}
+
+/* popup-page */
+
+.popup-page {
+    background-color: rgb(0 0 0 / 50%);
+    position: fixed;
+    top: 0px;
+    height: 100vh;
+    width: 100%;
+    z-index: 10;
+    padding: 0px 15px;
+}
+
+.popup-page .popup {
+    border-radius: 8px;
+    background-color: white;
+    row-gap: 20px;
+    padding: 15px;
+    width: 100%;
+    max-width: 300px;
+    min-height: 150px;
+    max-height: 100%;
+}
+
+.popup-page .popup p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    color: black
+}
+
+.popup-page .popup button {
+    font-size: 16px;
+    line-height: 16px;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 15px;
+    background-color: var(--button-bg);
+    border: 0px;
+    outline: 0px;
+}
+
+/*  discard-section-container */
+.discard-section-container {
+    z-index: 4;
+    background-color: rgb(0 0 0 / 50%);
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+}
+
+.discard-section-container .discard-section {
+    background-color: white;
+    border-radius: 8px;
+    padding: 30px;
+    row-gap: 30px;
+    min-height: 164px;
+    width: 335px;
+    max-width: 100%;
+
+}
+
+.discard-section-container .discard-section .message {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    color: black
+}
+
+.discard-section-container .discard-section .cancel,
+.discard-section-container .discard-section .discard {
+    border-radius: 8px;
+    border: 1px solid var(--border-2);
+    font-size: 14px;
+    line-height: 14px;
+    color: var(--text-color-4);
+    background-color: white;
+    width: 124px;
+    height: 42px;
+}
+
+.discard-section-container .discard-section .discard {
+    color: var(--text-color-4);
+    border: 0px;
+    background-color: var(--bg-4);
+    color: white;
+}
+
+/*  logout-section-container */
+.logout-section-container {
+    z-index: 4;
+    background-color: rgb(0 0 0 / 50%);
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}
+
+.logout-section-container .logout-section {
+    background-color: white;
+    border-radius: 8px;
+    padding: 30px;
+    row-gap: 30px;
+    min-height: 164px;
+    width: 335px;
+    max-width: 100%;
+
+}
+
+.logout-section-container .logout-section .message {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    color: black
+}
+
+.logout-section-container .logout-section .cancel,
+.logout-section-container .logout-section .logout {
+    border-radius: 8px;
+    border: 1px solid var(--border-2);
+    font-size: 14px;
+    line-height: 14px;
+    color: var(--text-color-4);
+    background-color: white;
+    width: 124px;
+    height: 42px;
+}
+
+.logout-section-container .logout-section .logout {
+    color: var(--text-color-4);
+    border: 0px;
+    background-color: var(--bg-4);
+    color: white;
+}
+
+.not-found{
+    font-weight: 500;
+    color: var(--text-color-2);
+    font-size: 16px;
+    line-height: 16px;
+}
+.not-found img{
+    height: 200px;
+}

@@ -1,0 +1,552 @@
+.cart-page {
+    background-color: var(--bg-3);
+    min-height: 100%;
+    grid-template-rows: max-content auto;
+}
+
+/* header-container */
+
+.cart-page .header-container {
+    background-color: white;
+    box-shadow: 0px 4px 12px rgba(166, 166, 166, 0.12);
+    position: sticky;
+    top: 0px;
+}
+
+.cart-page .header {
+    padding: 15px 20px;
+    line-height: 16px;
+}
+
+.cart-page .header img {
+    width: 16px;
+    height: auto;
+}
+
+.cart-page .header p {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500;
+    color: var(--text-color-7);
+}
+
+/* grand-total-container */
+
+.cart-page .grand-total-container {
+    padding: 10px 20px;
+    background-color: var(--bg-2);
+    color: var(--text-color-4);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.cart-page .grand-total-container p {
+    line-height: 16px;
+}
+
+.cart-page .sub-info-container {
+    padding: 8px 20px;
+}
+
+/* .item-container */
+
+.cart-page .item-container {
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.cart-page .item {
+    padding-bottom: 15px;
+}
+
+.cart-page .item .item-image img {
+    width: 72px;
+    height: 72px;
+    border-radius: 4px;
+}
+
+.cart-page .item .item-info {
+    padding-left: 15px;
+}
+
+.cart-page .item .item-info .name {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    color: var(--text-color-1);
+}
+
+.cart-page .item .item-info .description {
+    font-size: 12px;
+    color: var(--text-color-1);
+    line-height: 14px;
+    margin: 15px 0px;
+}
+
+.cart-page .item .item-info .description button {
+    font-weight: 700;
+    background-color: transparent;
+}
+
+.cart-page .item .item-info .time {
+    font-size: 12px;
+    line-height: 14px;
+    color: var(--text-color-2);
+    column-gap: 2px;
+}
+
+.cart-page .item .close button {
+    font-size: 10px;
+    border-radius: 100%;
+    background-color: var(--button-bg-2);
+    color: var(--text-color-1);
+    width: 24px;
+    height: 24px;
+}
+
+.cart-page .item .close button svg {
+    display: block;
+    margin: auto;
+}
+
+
+/* quantity-container */
+
+.cart-page .quantity-container {
+    padding: 15px 0px;
+    border-top: 1px solid var(--border-1);
+    border-bottom: 1px solid var(--border-1);
+}
+
+.cart-page .quantity-container .quantity {
+    column-gap: 10px;
+}
+
+.cart-page .quantity-container .text {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+    color: var(--text-color-1);
+}
+
+.cart-page .quantity-container .increase-decrease {
+    width: 90px;
+    height: 28px;
+    background-color: var(--bg-2);
+    color: var(--text-color-4);
+    border: 1px solid var(--border-2);
+    border-radius: 8px;
+    padding: 0 10px;
+}
+
+.cart-page .quantity-container .increase-decrease button {
+    background-color: transparent;
+    font-size: 16px;
+    line-height: 17px;
+    font-weight: 500;
+}
+
+.cart-page .quantity-container .increase-decrease p {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500;
+}
+
+.cart-page .quantity-container .price {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 15px;
+}
+
+.cart-page .quantity-container .cut {
+    font-size: 12px;
+    color: var(--text-color-1);
+    line-height: 12px;
+    margin-left: 7px;
+    text-decoration: line-through;
+}
+
+/* remove-container */
+
+.cart-page .add-wipes-container {
+    padding: 15px;
+    grid-template-columns: 15px auto;
+    column-gap: 10px;
+    border-radius: 8px;
+    margin: 8px 0px;
+}
+
+.cart-page .add-wipes-container .instructions-add-container {
+    border-bottom: 1px dashed var(--border-1);
+    line-height: 14px;
+    column-gap: 10px;
+}
+
+.cart-page .add-wipes-container .instructions-add-container p {
+    font-size: 13px;
+    line-height: 14px;
+    color: var(--text-color-2);
+}
+
+.cart-page .add-wipes-container .notbook img {
+    width: 15px;
+    height: auto;
+}
+
+.cart-page .add-wipes-container .add button {
+    color: var(--text-color-4);
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 500;
+}
+
+/* add-services-packages-container */
+
+.cart-page .add-services-packages-container {
+    padding: 15px;
+    border-radius: 8px;
+    margin: 8px 0px;
+    margin-top: 0px;
+
+
+}
+
+.cart-page .add-services-packages-container .add-services-packages {
+    column-gap: 10px;
+    color: var(--text-color-4);
+}
+
+.cart-page .add-services-packages-container img {
+    width: 15px;
+    height: auto;
+}
+
+.cart-page .add-services-packages-container p {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+/* use-coupon-container */
+
+.cart-page .use-coupon-container {
+    padding: 15px;
+    border-radius: 8px;
+    margin: 8px 0px;
+    line-height: 16px;
+}
+
+.cart-page .use-coupon-container .image-text-container {
+    column-gap: 10px;
+}
+
+.cart-page .use-coupon-container .image-text-container img {
+    width: 20px;
+    height: 20px;
+}
+
+.cart-page .use-coupon-container .image-text-container p {
+    font-size: 16px;
+    line-height: 16px;
+    color: var(--text-color-1);
+    font-weight: 700;
+}
+
+.cart-page .use-coupon-container .forward-container button img {
+    width: 12px;
+    height: 12px;
+}
+
+/* use-coupon-container */
+
+.cart-page .used-coupon-container {
+    padding: 15px;
+    border-radius: 8px;
+    margin: 8px 0px;
+    line-height: 16px;
+}
+
+.cart-page .used-coupon-container .image-text-container {
+    column-gap: 10px;
+}
+
+.cart-page .used-coupon-container .image-text-container img {
+    width: 20px;
+    height: 20px;
+}
+
+.cart-page .used-coupon-container .image-text-container p {
+    font-size: 16px;
+    line-height: 16px;
+    color: var(--text-color-1);
+    font-weight: 700;
+}
+
+.cart-page .used-coupon-container .change-offer button {
+    color: var(--text-color-4);
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.cart-page .used-coupon-container .code-applied {
+    padding-top: 8px;
+}
+
+.cart-page .used-coupon-container .code-applied .image-text-container {
+    column-gap: 15px;
+}
+
+.cart-page .used-coupon-container .code-applied img {
+    width: 16px;
+    height: 16px;
+    position: relative;
+    left: 3px;
+}
+
+.cart-page .used-coupon-container .code-applied .image-text-container p {
+    font-weight: 500;
+}
+
+.cart-page .used-coupon-container .code-applied .price p {
+    color: var(--text-color-1);
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500;
+}
+
+/* payment-details-container */
+
+.cart-page .payment-details-container {
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.cart-page .payment-details-container .title-container {
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 500;
+    border-bottom: 1px solid var(--border-1);
+    padding-bottom: 15px;
+}
+
+.cart-page .payment-details-container .subtotal,
+.cart-page .payment-details-container .discount,
+.cart-page .payment-details-container .coupon-discount {
+    font-size: 14px;
+    padding-top: 10px;
+    line-height: 14px;
+}
+
+.cart-page .payment-details-container .coupon-discount {
+    padding-bottom: 10px;
+}
+
+.cart-page .payment-details-container .subtotal {
+    color: var(--text-color-2);
+}
+
+.cart-page .payment-details-container .discount,
+.cart-page .payment-details-container .coupon-discount {
+    color: var(--text-color-4);
+}
+
+.cart-page .payment-details-container .grand-total {
+    font-size: 16px;
+    padding-top: 12px;
+    font-weight: 700;
+    border-top: 1px solid var(--border-1);
+}
+
+.cart-page .payment-details-container .grand-total p {
+    line-height: 16px;
+}
+
+/* proceed-container */
+
+.cart-page .proceed-container {
+    height: 67px;
+    background-color: var(--bg-4);
+    padding: 20px 20px;
+    color: white;
+    position: sticky;
+    bottom: 0px;
+    z-index: 1;
+}
+
+.cart-page .proceed-container .grand-total {
+    font-size: 12px;
+    line-height: 13px;
+    margin-bottom: 3px;
+}
+
+.cart-page .proceed-container .price {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500;
+}
+
+.cart-page .proceed-container button {
+    background-color: var(--button-bg);
+    color: white;
+    line-height: 15px;
+    font-size: 16px;
+    column-gap: 7px;
+    display: block;
+    text-decoration: none;
+}
+
+.cart-page .proceed-container a img {
+    width: 12px;
+    height: 12px;
+}
+
+/* .add-intstructions-page */
+
+.add-intstructions-page {
+    grid-template-rows: auto max-content;
+    position: fixed;
+    height: 100vh;
+    z-index: 5;
+    top: 0px;
+    transform: translateY(100%);
+    transition: transform .3s;
+}
+
+.add-intstructions-page .cancel-page {
+    background-color: rgb(0 0 0 / 50%);
+}
+
+.add-intstructions-page .instructions-section {
+    background-color: white;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.add-intstructions-page .instructions-section .title-textarea-container {
+    padding: 15px;
+}
+
+.add-intstructions-page .instructions-section .title {
+    border-bottom: 1px solid var(--border-1);
+    padding: 15px 0px;
+    line-height: 16px;
+    padding-top: 0px;
+}
+
+.add-intstructions-page .instructions-section .title p {
+
+    font-size: 16px;
+    line-height: 16px;
+    color: var(--text-color-1);
+    font-weight: 500;
+}
+
+.add-intstructions-page .instructions-section .title button {
+    font-size: 16px;
+}
+
+.add-intstructions-page .instructions-section .text-area-container {
+    padding: 15px 0px;
+}
+
+.add-intstructions-page .instructions-section .text-area-container .start-typing {
+    font-size: 12px;
+    line-height: 12px;
+    color: var(--text-color-4);
+    margin-bottom: 8px;
+}
+
+.add-intstructions-page .instructions-section .text-area-container .message {
+    font-size: 12px;
+    line-height: 12px;
+    color: var(--text-color-9);
+    margin-bottom: 8px;
+}
+
+.add-intstructions-page .instructions-section .text-area-container textarea {
+    border: 1px solid var(--border-2);
+    border-radius: 8px;
+    padding: 8px 15px;
+    width: 100%;
+    height: 95px;
+    outline: 0px;
+}
+
+.add-intstructions-page .instructions-section .text-area-container .number-of-character {
+    font-size: 12px;
+    line-height: 12px;
+    color: var(--text-color-2);
+    margin-top: 4px;
+}
+
+.add-intstructions-page .instructions-section .text-area-container .statement {
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--text-color-9);
+    margin-top: 15px;
+}
+
+.add-intstructions-page .instructions-section .add-container button {
+    color: white;
+    background-color: var(--bg-4);
+    height: 67px;
+    width: 100%;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+/* appplied-coupon-from-coupons */
+
+.appplied-coupon-from-coupons {
+    background-color: rgb(0 0 0 / 50%);
+    position: fixed;
+    top: 0px;
+    height: 100vh;
+    width: 100%;
+    z-index: 10;
+    padding: 0px 15px;
+}
+
+.appplied-coupon-from-coupons .appplied-coupon-from-coupons-container {
+    border-radius: 8px;
+    background-color: white;
+    row-gap: 25px;
+    padding: 15px;
+    width: 100%;
+    max-width: 335px;
+    min-height: 285px;
+    max-height: 100%;
+}
+
+.appplied-coupon-from-coupons .check-code-container img {
+    width: 64px;
+    height: 64px;
+}
+
+.appplied-coupon-from-coupons .appplied-coupon-from-coupons-container .code {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    color: black;
+    margin-top: 8px;
+}
+
+.appplied-coupon-from-coupons .appplied-coupon-from-coupons-container .saved {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 22px;
+    color: black;
+    margin-bottom: 8px;
+}
+
+.appplied-coupon-from-coupons .appplied-coupon-from-coupons-container .message {
+    font-size: 14px;
+    line-height: 14px;
+    color: black
+}
+
+.appplied-coupon-from-coupons .appplied-coupon-from-coupons-container .hurray {
+    font-size: 14px;
+    line-height: 14px;
+    color: var(--text-color-9);
+    font-weight: 500;
+}

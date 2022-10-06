@@ -1,0 +1,68 @@
+.mapview-page {
+    grid-template-rows: auto max-content max-content;
+}
+
+.mapview-page .back-container{
+    position: absolute;
+    margin-right: 15px;
+    margin-top: 15px;
+    right: 0px;
+    z-index: 1;
+}
+.mapview-page .back-container button{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    font-size: 16px;
+    color: white;
+    background-color: #d44f4f;
+    border: 0px;
+    outline: 0px;
+}
+
+.mapview-page .map {
+    position: relative !important;
+    height: 100%;
+}
+
+.mapview-page .salons-container {
+    column-gap: 20px;
+    overflow: scroll;
+    padding: 20px;
+}
+
+.mapview-page .salons-container::-webkit-scrollbar {
+    display: none;
+}
+
+.mapview-page .salons-container .salon {
+    margin-top: 0px;
+}
+.mapview-page .salons-container .salon-image{
+    width: 314px;
+    height: 209px;
+}
+.mapview-page .salons-container .carousel-root,
+.mapview-page .salons-container .carousel-slider{
+    height: 100%;
+}
+
+.mapview-page .currentlocation{
+    position: absolute;
+    margin-right: 15px;
+    margin-top: -55px;
+    right: 0px;
+    z-index: 1;
+}
+.mapview-page .currentlocation button{
+    border-radius: 100%;
+    font-size: 25px;
+    color: black;
+    border: 0px;
+    outline: 0px;
+    background-color: transparent;
+}
+
+.mapview-page .not-found{
+    margin:auto
+}

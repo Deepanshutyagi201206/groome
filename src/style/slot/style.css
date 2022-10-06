@@ -1,0 +1,267 @@
+/* header-container */
+
+.slot-page {
+    background-color: var(--bg-3);
+    min-height: 100%;
+    grid-template-rows: max-content auto;
+}
+
+.slot-page .header-container {
+    padding: 0px 20px;
+    background-color: white;
+    height: 48px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    box-shadow: 0px 4px 12px rgba(166, 166, 166, 0.12);
+}
+
+.slot-page .header-containerder img {
+    width: 16px;
+    height: auto;
+}
+
+.slot-page .header-container p {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500;
+    color: var(--text-color-7);
+}
+
+/* address-section */
+
+.slot-page  .info-container{
+    grid-template-rows: auto max-content;
+}
+.slot-page  .sub-info-container{
+    grid-template-rows: max-content auto;
+}
+
+.slot-page .address-section {
+    margin: 8px 0px;
+    background-color: white;
+    padding: 0px 20px;
+}
+
+.slot-page .address-section .title-container {
+    padding: 15px 0px;
+    border-bottom: 1px solid var(--border-1);
+}
+
+.slot-page .address-section .title-container p {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+}
+
+.slot-page .address-section .title-container button {
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 500;
+    color: var(--text-color-4);
+}
+
+.slot-page .address-section .address-container {
+    padding: 15px 0px;
+    column-gap: 15px;
+}
+
+.slot-page .address-section .address-container .home-image {
+    line-height: 15px;
+}
+
+.slot-page .address-section .address-container .home-image img {
+    width: 17px;
+    height: 16px;
+}
+
+.slot-page .address-section .address-container .home {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 13px;
+    color: var(--text-color-1);
+    margin-bottom: 8px;
+}
+
+.slot-page .address-section .address-container .address {
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--text-color-2);
+}
+
+/* salon-address-section */
+
+.slot-page .salon-address-section {
+    margin: 8px 0px;
+    background-color: white;
+    padding: 0px 20px;
+}
+
+.slot-page .salon-address-section .title-container {
+    padding: 15px 0px;
+    border-bottom: 1px solid var(--border-1);
+}
+
+.slot-page .salon-address-section .title-container p {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+}
+
+.slot-page .salon-address-section .address-container {
+    padding: 15px 0px;
+    column-gap: 15px;
+}
+
+.slot-page .salon-address-section .address-container .salon-image img {
+    border-radius: 8px;
+    width: 55px;
+    height: 55px;
+}
+
+.slot-page .salon-address-section .address-container .name {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 13px;
+    color: var(--text-color-1);
+    margin-bottom: 8px;
+}
+
+.slot-page .salon-address-section .address-container .address {
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--text-color-2);
+}
+
+/* slot-section */
+
+.slot-page .slot-section {
+    margin-bottom: 8px;
+    grid-template-rows: max-content auto;
+}
+
+.slot-page .title-date-container{
+    overflow: hidden;
+}
+
+.slot-page .slot-section .title-container {
+    padding: 15px 0px;
+    margin: 0px 20px;
+    border-bottom: 1px solid var(--border-1);
+    column-gap: 15px;
+}
+
+.slot-page .slot-section .title-container svg {
+    width: 16px;
+    height: 16px;
+    color: var(--text-color-4);
+}
+
+.slot-page .slot-section .title-container p {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    color: var(--text-color-1);
+}
+
+.slot-page .slot-section .dates-container {
+    column-gap: 15px;
+    overflow: scroll;
+    padding: 20px 20px;
+}
+
+.slot-page .slot-section .dates-container .date-container {
+    border-radius: 8px;
+    border: 1px solid var(--border-1);
+    width: 87px;
+    height: 78px;
+    row-gap: 10px;
+    background-color: transparent;
+}
+
+.slot-page .slot-section .dates-container .date-container p {
+    font-size: 16px;
+    line-height: 16px;
+    color: var(--text-color-1);
+}
+
+.slot-page .slot-section .dates-container .date-container .day {
+    color: var(--text-color-4);
+    font-weight: 500;
+}
+
+.slot-page .slot-section .dates-container .date-active {
+    background-color: var(--bg-4);
+    color: white;
+    border: 0px
+}
+
+.slot-page .slot-section .dates-container .date-active .day,
+.slot-page .slot-section .dates-container .date-active .date {
+    color: white;
+}
+
+
+.slot-page .slot-section .dates-container::-webkit-scrollbar {
+    display: none;
+}
+
+.slot-page .slot-section .times-container {
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin: 0 20px;
+    border-top: 1px solid var(--border-1);
+    padding: 17px 0px;
+}
+.slot-page .slot-section .times-container .message{
+    font-size: 16px;
+    line-height: 16px;
+    color: var(--text-color-1);
+}
+
+.slot-page .slot-section .times-container .time-container {
+    border: 1px solid var(--border-1);
+    color: var(--text-color-2);
+    box-shadow: 0px 2px 4px rgba(166, 166, 166, 0.12);
+    border-radius: 8px;
+    padding: 15px;
+    background-color: transparent;
+}
+
+.slot-page .slot-section .times-container .time-container p {
+    font-size: 14px;
+    line-height: 13px;
+}
+
+.slot-page .slot-section .times-container .time-active {
+    background-color: var(--bg-4);
+    color: white;
+    border: 0px
+}
+
+.slot-page .slot-section .times-container button:disabled{
+    background-color: var(--bg);
+}
+
+/* save-proceed */
+
+.slot-page .save-proceed {
+    background-color: var(--bg-4);
+    position: sticky;
+    bottom: 0px;
+}
+
+.slot-page .save-proceed button {
+    font-size: 16px;
+    line-height: 16px;
+    background-color: transparent;
+    font-weight: 500;
+    color: white;
+        height: 67px;
+        width: 100%;
+}
+
+.slot-page .loader {
+    padding-bottom: 15px;
+}

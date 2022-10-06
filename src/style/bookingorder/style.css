@@ -1,0 +1,187 @@
+.booking-order-page {
+    background-color: var(--bg-3);
+    padding-bottom: 8px;
+    grid-template-rows: max-content auto;
+    min-height: 100%;
+}
+
+.booking-order-page .header-search-container {
+    top: 0px;
+    background-color: var(--bg-3);
+}
+
+/* header */
+.booking-order-page .header-container {
+    padding: 0px 20px;
+    height: 48px;
+    background-color: white;
+    box-shadow: 0px 4px 12px rgba(166, 166, 166, 0.12);
+}
+
+.booking-order-page .header-container img {
+    width: 16px;
+    height: auto;
+}
+
+.booking-order-page .header-container p {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500;
+    color: var(--text-color-7);
+}
+
+/* search-salons-container */
+
+.booking-order-page .search-salons-container{
+    padding: 8px 20px;
+}
+
+.booking-order-page .search-salons-container .search-salons {
+    height: 48px;
+    border: 1px solid var(--border-1);
+    border-radius: 8px;
+    padding: 10px;
+    column-gap: 10px;
+    background-color: white;
+}
+
+.booking-order-page .search-salons-container .search-salons img {
+    width: 16px;
+    height: auto;
+}
+
+.booking-order-page .search-salons-container .search-salons input {
+    outline: 0px;
+    font-size: 14px;
+    color: var(--text-color-3);
+}
+
+/* booking-salons-container */
+
+.booking-order-page .booking-salons-container{
+    row-gap: 8px;
+}
+
+.booking-order-page .booking-salons-container .booking-salon-container {
+    margin: 0px 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.booking-order-page .booking-salons-container .booking-salon-container .booking-salon {
+    padding: 15px;
+    border-bottom: 1px solid var(--border-1);
+}
+
+.booking-order-page .booking-salons-container .booking-salon-container .booking-salon-image img {
+    border-radius: 8px;
+    width: 55px;
+    height: 55px;
+}
+
+.booking-order-page .booking-salons-container .booking-salon-container .booking-salon-info {
+    row-gap: 8px;
+    padding-left: 15px;
+}
+
+.booking-order-page .booking-salons-container .booking-salon-container .booking-salon-info .name {
+    font-size: 16px;
+    line-height: 16px;
+    color: var(--text-color-1);
+    font-weight: 500;
+
+
+}
+
+.booking-order-page .booking-salons-container .booking-salon-container .booking-salon-info .address {
+    font-size: 14px;
+    line-height: 14px;
+    color: var(--text-color-2);
+}
+
+.booking-order-page .booking-salons-container .booking-salon-container .booking-salon .view-salon {
+    font-size: 12px;
+    line-height: 12px;
+    color: var(--text-color-4);
+    background-color: white;
+    font-weight: 500;
+    display: block;
+    text-decoration: none;
+}
+
+.booking-order-page .booking-salons-container .booking-salon-container .service-name-container,
+.booking-order-page .booking-salons-container .booking-salon-container .date-price-container,
+.booking-order-page .booking-salons-container .booking-salon-container .order-id-section {
+    padding: 15px 0px;
+    margin: 0px 15px;
+    border-bottom: 1px solid var(--border-1);
+}
+
+.booking-order-page .booking-salons-container .booking-salon-container .order-id-section .order-id {
+    line-height: 16px;
+    font-size: 16px;
+    color: var(--text-color-1);
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.booking-order-page .booking-salons-container .booking-salon-container .order-id-section .total-amount {
+    line-height: 12px;
+    font-size: 12px;
+    color: var(--text-color-2);
+}
+
+.booking-order-page .booking-salons-container .booking-salon-container .order-id-section .confirmed {
+    font-size: 12px;
+    line-height: 12px;
+    height: 22px;
+    width: 72px;
+    background-color: var(--button-bg-4);
+    color: var(--text-color-8);
+    border-radius: 4px;
+}
+
+.booking-order-page .booking-salons-container .booking-salon-container .service-name-container p {
+    line-height: 14px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-color-1);
+}
+
+.booking-order-page .booking-salons-container .booking-salon-container .service-name-container .view-details {
+    line-height: 12px;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--text-color-4);
+    text-decoration: none;
+}
+
+.booking-order-page .booking-salons-container .booking-salon-container .date-price-container .date {
+    line-height: 14px;
+    font-size: 14px;
+    color: var(--text-color-2);
+}
+
+.booking-order-page .booking-salons-container .booking-salon-container .date-price-container .price {
+    line-height: 14px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-color-1);
+}
+
+.booking-order-page .booking-salons-container .booking-salon-container .payment-mode-section {
+    padding: 15px;
+}
+
+.booking-order-page .booking-salons-container .booking-salon-container .payment-mode-section .date-container p {
+    font-size: 14px;
+    line-height: 14px;
+    color: var(--text-color-2);
+}
+
+.booking-order-page .booking-salons-container .booking-salon-container .payment-mode-section .payment-mode-container p {
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 500;
+    color: var(--text-color-1);
+}

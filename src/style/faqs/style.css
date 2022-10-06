@@ -1,0 +1,62 @@
+/* header-container */
+
+.faqs-page {
+    background-color: var(--bg-5);
+    min-height: 100vh;
+    max-height: 100%;
+}
+
+.faqs-page .header-container {
+    padding: 0px 20px;
+    background-color: white;
+    height: 48px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    box-shadow: 0px 4px 12px rgba(166, 166, 166, 0.12);
+}
+
+.faqs-page .header-containerder img {
+    width: 16px;
+    height: auto;
+}
+
+.faqs-page .header-container p {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500;
+    color: var(--text-color-7);
+}
+
+/* termsofservice-container */
+.faqs-page .faqs-container .faq{
+    padding: 15px 20px;
+    border-bottom: 1px solid var(--border-1);
+}
+.faqs-page .faqs-container .faq p{
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 16px;
+        color: var(--text-color-1);
+}
+.faqs-page .faqs-container .faq button img{
+    width: 12px;
+    height: 12px;
+}
+
+.faqs-page .faqs-container .title {
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    color: var(--text-color-1);
+}
+
+.faqs-page .faq .dot-image{
+    padding-right: 15px;
+}
+.faqs-page .faq p {
+    font-size: 14px;
+    line-height: 19px;
+    color: var(--text-color-1);
+}

@@ -1,0 +1,107 @@
+.profile-page {
+    background-color: var(--bg-3);
+}
+
+.profile-page .header {
+    background-color: white;
+    box-shadow: 0px 4px 12px rgba(166, 166, 166, 0.12);
+    position: sticky;
+    top: 0px;
+    font-size: 16px;
+    z-index: 1;
+    height: 48px;
+}
+
+.profile-page .header p {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.profile-page .user-image-container {
+    padding: 30px 0px;
+    padding-bottom: 0px;
+}
+
+.profile-page .user-image-input-container input {
+    display: none;
+}
+
+.profile-page .user-image img {
+    border-radius: 100%;
+    width: 78px;
+    height: 78px;
+}
+.profile-page .user-image svg{
+    border-radius: 100%;
+    width: 78px;
+    height: 78px;
+    color: black;
+}
+
+.profile-page .user-image-input-container {
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    right: 0px;
+    left: 53px;
+    bottom: -3px;
+}
+
+.profile-page .user-image-input-container img {
+    width: 16px;
+    height: 16px;
+}
+
+.profile-page .input-fields-container {
+    padding: 0 30px;
+    row-gap: 30px;
+}
+
+.profile-page .input-fields-container p {
+    font-size: 14px;
+    color: var(--text-color-4);
+}
+
+.profile-page .input-fields-container .birthday-text {
+    color: var(--text-color-3);
+}
+
+.profile-page .input-fields-container input,
+.profile-page .input-fields-container button {
+    width: 100%;
+    height: 42px;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: 0px;
+    padding: 0 15px;
+}
+
+.profile-page .input-fields-container input {
+    margin-top: 5px;
+}
+.profile-page .input-fields-container .mobile-container input{
+    color: var(--text-color-3);
+}
+.profile-page .input-fields-container .birthday-input-container input {
+    margin-bottom: 5px;
+}
+
+.profile-page .input-fields-container button {
+    font-size: 14px;
+    background-color: var(--button-bg);
+    color: var(--text-color-6);
+    outline: 0px;
+}
+
+.profile-page .building-image-container img {
+    width: 100%;
+}
+
+.profile-page .message{
+    margin: 0px;
+    color: red !important;
+    font-size: 14px;
+    line-height: 14px;
+}

@@ -1,0 +1,53 @@
+@media screen and (min-width : 800px) {
+
+    .login,
+    .profile-page,
+    .home-page,
+    .salons-by-search-page,
+    .salon-page,
+    .mapview-page,
+    .location-page,
+    .aboutus-page,
+    .booking-order-page,
+    .aboutus-page,
+    .cart-page,
+    .coupons-page,
+    .faqs-page,
+    .favourites-page,
+    .myprofile-page,
+    .offersdeals-page,
+    .order-details-page,
+    .payment-page,
+    .privacypolicy-page,
+    .slot-page,
+    .termsofservice-page,
+    .view-profile-page,
+    .wallet-page{
+        display: none !important;
+    }
+}
+
+/* home-page */
+
+/* book-again */
+
+@media screen and (max-width:350px) {
+    .home-page .book-again-container .book-again-salons-container {
+        grid-template-columns: auto;
+    }
+}
+
+@media screen and (max-width:379px) {
+    .home-page .categories-container .categories {
+        grid-template-columns: 20% 20% 20% 20%;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .myprofile-page .user-liked-offer-wallet .liked a,
+    .myprofile-page .user-liked-offer-wallet .offers a,
+    .myprofile-page .user-liked-offer-wallet .view-profile a,
+    .myprofile-page .user-liked-offer-wallet .wallet a{
+        width: 100%;
+    }
+}
